@@ -1,0 +1,26 @@
+ {
+  "name": "summer-react",
+  "version": "1.0.0",
+  "description": "This is a react tutorial to learn react by Mudit and taught by Akshay Saini in his Namaste React course",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuditThakur/Namaste-react.git"
+  },
+  "keywords": [
+    "react",
+    "mudit"
+  ],
+  "author": "Mudit Thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuditThakur/Namaste-react/issues"
+  },
+  "homepage": "https://github.com/MuditThakur/Namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
