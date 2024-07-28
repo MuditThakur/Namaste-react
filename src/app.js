@@ -7,5 +7,5 @@ import ReactDOM from "react-dom/client";
 
   const jsxScript = <h1>This is rendered using jsx </h1>
 
-  root.render(heading)
+  root.render(heading) 
   root.render(jsxScript   )
