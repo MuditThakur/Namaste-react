@@ -1,11 +1,25 @@
-import React, { createElement } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 
-//React element
-  const heading = React.createElement("h1",{id:"heading"},"This is rendered code");
-  const root = ReactDOM.createRoot(document.getElementById("root"));
+// React element
+const heading = <h1 className="head">namaste react</h1>;
 
-  const jsxScript = <h1>This is rendered using jsx </h1>
+// React Component 
+const HeadingComponent = () => {
+  return (
+    <div>
+      <h1 className="heading">
+        Namaste react component hi welcome mudit 🚀🚀
+      </h1>
+    </div>
+  );
+};
 
-  root.render(heading) 
-  root.render(jsxScript   )
+// Render the elements
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <div>
+    {heading}
+    <HeadingComponent />
+  </div>
+);
