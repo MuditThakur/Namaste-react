@@ -1,4 +1,12 @@
-h1 {
-  color: red;
-  font-family: cursive;
+.logo{
+width: 60px;
+height: 40px;
+}
+
+li{
+  display: inline;
+  padding: 20px;
+}
+.header{
+  display: flex;
 }
